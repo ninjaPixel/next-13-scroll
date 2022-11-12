@@ -1,0 +1,24 @@
+.root > div{
+    height: 1000px;
+}
+
+.root > * + * {
+    margin-top: 20px;
+}
+
+.blue{
+    background-color: hsl(200, 70.9%, 79.8%);
+}
+
+.pink{
+    background-color: hsl(330, 77.4%, 75.7%);
+}
+
+.cyan {
+    background-color: hsl(184, 80.5%, 73.9%);
+}
+
+.root p {
+    max-width: 400px;
+    padding: 10px;
+}

@@ -2,6 +2,13 @@
   padding: 0 2rem;
 }
 
+.instructions{
+  width: 100%;
+  background-color: hsl(184, 80.5%, 73.9%);
+  min-height: 90vh;
+  padding: 20px;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -143,4 +150,12 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.pageLink{
+  border: 8px solid black;
+  min-height: 30px;
+  margin-bottom: 20px;
+  padding:20px;
+  width: 100%;
 }
